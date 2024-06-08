@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.menu-container {
+  background: #1B1C1D;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-container .mainMenu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-container .mainMenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  transition: 0.2s ease;
+}
+
+.menu-container .mainMenu li a:hover {
+  background: rgb(255, 94, 0);
+}
+
+.menu-container .openMenu {
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
+  cursor: pointer;
+}
+
+.menu-container .mainMenu .closeMenu,
+.icons i {
+  font-size: 1.5rem;
+  display: none;
+  cursor: pointer;
+}
+
+.fa-facebook:hover {
+  color: rgb(0, 110, 255);
+}
+
+.fa-twitter:hover {
+  color: rgb(86, 154, 243);
+}
+
+.fa-instagram:hover {
+  color: rgb(255, 0, 191);
+}
+
+.fa-github:hover {
+  color: rgb(255, 123, 0);
+}
+
+.menu-container .logo {
+  margin: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+  .menu-container .mainMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1B1C1D;
+    transition: top 1s ease;
+    display: none;
+  }
+
+  .menu-container .mainMenu.show {
+    display: flex;
+  }
+
+  .menu-container .mainMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  .menu-container .openMenu {
+    display: block;
+  }
+
+  .menu-container .mainMenu li a:hover {
+    background: none;
+    color: rgb(255, 123, 0);
+  }
+
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 801px) {
+  .menu-container .mainMenu {
+    display: none;
+  }
+}

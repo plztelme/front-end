@@ -1,0 +1,48 @@
+.nav-first {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-login,
+  .user-registering {
+    margin-left: 1em;
+  }
+  
+  .log-in-btn {
+    color: #D91C1F;
+    padding: 0.5em 0.9em;
+    font-weight: 500;
+    font-family:"Avenir Next" , "Arial";
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent;
+    border: 1px solid #D91C1F;
+  }
+  
+  .log-in-btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sing-up-btn {
+    color: white;
+    padding: 0.5em 0.9em;
+    font-weight: 500;
+    font-family:"Avenir Next" , "Arial";
+    font-size: 1.2em;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: black;
+    border: 1px solid #D91C1F;
+  }
+  
+  .sing-up-btn:hover {
+    background-color: transparent;
+    color: #D91C1F;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,416 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Avenir" , "sans-serif";
+
+}
+
+/* Selection styles */
+::selection {
+  background-color: #D91C1F;
+  color: #FFFFFF;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+::-moz-selection {
+  background-color: #D91C1F;
+  color: #FFFFFF;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+::selection {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+::selection:hover {
+  background-color: #F7931A;
+  color: #FFFFFF;
+}
+
+a {
+  color: black;
+  text-decoration: none; 
+  transition:color 0.3s ease, color 0.3s ease;
+}
+
+/* Styles for hover state */
+a:hover {
+  color: #fff; 
+  text-decoration: underline; 
+}
+
+
+a:visited {
+  color: #6610f2; 
+}
+
+
+a:active {
+  color: #0056b3; 
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color:  #A9A9A9;
+ 
+}
+.home-page {
+  color: black;
+  padding-left: 0.9em;
+  padding-top: 11.5vh; 
+  padding-bottom: 0.6em;
+}
+
+.heading-start {
+  padding: em;
+  margin-top:100%;
+}
+
+/* Header styles */
+.top-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+   background-color: #1B1C1D;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5em;
+  z-index: 1000; 
+}
+
+
+.ff-logo {
+  max-width: 100%;
+  height:auto;
+  max-height: 4em;
+  mix-blend-mode:lighten;
+  margin-left:1em;
+  object-fit:contain;
+  object-position:center;
+  opacity:0.95;
+
+
+
+}
+.heading-text1 {
+  margin-left:11.5em;
+  font-size:1.8em;
+  font-weight:1000;
+  font-family:"Avenir";
+z-index:1001;
+}
+
+
+.nav-first {
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.Going-btn {
+  margin-left: 1em;
+}
+
+
+.Go-btn {
+  color:white;
+  padding-left:4em;
+  padding-right:4em;
+  padding-top:0.9em;
+  padding-bottom:0.7em;
+font-family: "Avenir" , "Arial" , "sans-serif";
+  font-size: 1em;
+  display: inline-block;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border: 1px solid #D91C1F;
+  cursor: pointer;
+  background-color:black;
+  border-radius:5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  opacity:0.95;
+ 
+}
+.Go-btn:hover {
+color:#D91C1F;
+
+}
+  
+ 
+
+.home-page {
+  color:black;
+  padding-left: 0.9em;
+  padding-top: 0.9em;
+  padding-bottom: 0.6em;
+}
+
+.heading-start {
+  padding: 1em;
+}
+
+.three-images {
+  display:flex;
+ 
+}
+
+.border-height {
+  width: 100%; 
+  max-width: 385px;
+  margin: 1em auto;
+  background-color: #ccc;
+  border: 2px solid transparent;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+.border-height1 {
+  position:relative;
+  height: 32.1875em;
+}
+
+.border-height img {
+  max-width: 100%;
+  height: 33em;
+  display: block;
+  object-fit: cover; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  position: relative;
+
+  
+}
+.img-2 {
+  width: 100%;
+  height: 33em;
+  display: block;
+  object-fit: cover; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.banner1-text1 {
+  position:absolute;
+  top:30%;
+ left:26%;
+font-size:1.5em;
+  color:#fff;
+}
+
+.banner1-text2 {
+  position:absolute;
+  top:60%;
+ left:20%;
+font-size:1em;
+  color:#fff;
+}
+
+.banner2-text1 {
+  position:absolute;
+  top:42%;
+ left:35%;
+font-size:2em;
+  color:#fff;
+}
+.banner2-text2 {
+  position:absolute;
+  top:42%;
+ left:35%;
+ color:#fff;
+}
+.banner3-text1 {
+  position:absolute;
+  top:42%;
+ left:35%;
+ color:#fff;
+}
+.get-started1 {
+  position:absolute;
+  top:88%;
+ left:13%;
+}
+.get-started1-btn {
+  width: 100%;
+  padding: 1em 8.5em;
+  background-color: #D91C1F;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+
+}
+.get-started1-btn:hover {
+  background-color: #B10000;
+
+  
+}
+.get-started2 {
+  position:absolute;
+  top:88%;
+ left:13%;
+
+}
+
+
+.get-started2-btn {
+  width: 100%;
+  padding: 1em 8.5em;
+  background-color: #0a6dff;
+  border: 1px solid #0a6dff;
+  border-radius: 4px;
+  color: #fff; /* Black text */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+.get-started2-btn:hover {
+  background-color: #0B77FF;
+  color: #fff; /* White text on hover */
+  opacity:1;
+}
+
+
+.get-started3 {
+  position:absolute;
+  top:88%;
+ left:13%;
+}
+/* CSS for the arrow */
+.get-started3-btn::after {
+  content: "\2192"; 
+  padding-left:0.2em;
+  font-size:1.1em;
+  position:absolute;
+  top:28%;
+
+}
+
+/* Additional styling for the arrow */
+.get-started3-btn {
+  position: relative; /* Ensure the button's pseudo-element is positioned relative to the button */
+}
+
+.get-started3-btn {
+  width: 100%;
+  padding: 1em 8.5em;
+  background-color: #1E385F;
+  border: none;
+  border-radius: 4px;
+  color: #fff; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.get-started3-btn:hover {
+  background-color: #172B4B;
+  opacity:1;
+}
+.what-u-have-to-do {
+  margin-left:14;
+  margin: 10px;
+  border-radius: 50%;
+}
+footer{
+  background-color:#1B1C1D;
+  font-family:"Avenir";
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px ;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding:  10px;
+  background-color: black;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 1.5em;
+  color: white;
+
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+  background-color: black;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: #B10000 ;
+  transition: 0.5s;
+}
+.footerNav{
+  margin: 30px 0;
+}
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+.footerNav ul li a{
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.85;
+  transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+  color:#D91C1F;
+ 
+}
+.footerBottom{
+  background-color:#0F1011;;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+
+}
+@media screen and (max-width: 768px) {
+ 
+   .ff-logo {
+ 
+    max-height:15em;
+    font-size:1.2em;
+   }
+   .nav-first {
+    margin-right:4em;
+    padding-left:3em;
+   }
+  .Go-btn {
+      color: white;
+      padding:0.9em 1em;
+    font-family: "Avenir Next" , "Arial";
+      font-size: 1.5em;
+      border-radius:2px;
+     
+    }
+}
+
+@media screen and (max-width: 480px) {
+  
+}
+
+
+

@@ -1,0 +1,14 @@
+<div class="main-container">
+    <div class="main-text">
+        <div class="user-welcoming-text">
+            <h2>Hey there!</h2>
+            <p>Welcome to our Free Fire Diamond rewards program. Here's what you can do:</p>
+            <ul>
+                <li>Earn up to 530 diamonds from watching ads!</li>
+                <li>Get exclusive redeem codes by watching a single ad.</li>
+                <li>Redeem the codes directly in Google Play Store.</li>
+                <li>Use the diamonds in-game to upgrade and get ahead!</li>
+            </ul>
+        </div>
+    </div>
+</div>

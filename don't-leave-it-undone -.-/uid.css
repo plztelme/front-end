@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Avenir", sans-serif;
+ 
+  
+  }
+  
+  /* Selection styles */
+  ::selection {
+    background-color: #D91C1F;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  ::-moz-selection {
+    background-color: #D91C1F;
+    color: #FFFFFF;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  ::selection {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  ::selection:hover {
+    background-color: #F7931A;
+    color: #FFFFFF;
+  }

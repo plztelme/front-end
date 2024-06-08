@@ -1,0 +1,72 @@
+@media screen and (max-width: 768px) {
+    .ff-logo {
+      max-width: 10em;
+      margin: 0 auto;
+    }
+  
+    .heading-text {
+      font-size: 1.8em;
+    }
+  
+    .main-container {
+      padding: 1em;
+      margin: 1em;
+    }
+  
+    .user-welcoming-text {
+      font-size: 0.9em;
+      margin-left: 0.5em;
+    }
+  
+    .user-welcoming-text h2 {
+      font-size: 1.4em;
+    }
+  
+    ul {
+      padding-left: 0.5em;
+    }
+  
+    ul li {
+      padding-left: 1em;
+    }
+  
+    ul li::before {
+      left: 0.2em;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .ff-logo {
+      max-width: 8em;
+    }
+  
+    .heading-text {
+      font-size: 1.6em;
+    }
+  
+    .main-container {
+      padding: 0.5em;
+      margin: 0.5em;
+    }
+  
+    .user-welcoming-text {
+      font-size: 0.8em;
+      margin-left: 0.5em;
+    }
+  
+    .user-welcoming-text h2 {
+      font-size: 1.2em;
+    }
+  
+    ul {
+      padding-left: 0.5em;
+    }
+  
+    ul li {
+      padding-left: 1em;
+    }
+  
+    ul li::before {
+      left: 0.2em;
+    }
+  }
